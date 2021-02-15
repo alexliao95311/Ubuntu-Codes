@@ -12,9 +12,9 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1613414446,,"q"
+|2,0,1613416280,,"q"
 :w
-|2,0,1613414444,,"w"
+|2,0,1613415982,,"w"
 
 # Search String History (newest to oldest):
 
@@ -27,14 +27,38 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/.hushlogin
-|4,48,1,0,1613414446,"~/.hushlogin"
+'0  1  0  ~/Felix_Python/S_key.txt.pub
+|4,48,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
+'1  1  0  ~/Felix_Python/SSH_key.txt
+|4,49,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
+'2  1  0  ~/.hushlogin
+|4,50,1,0,1613414446,"~/.hushlogin"
 
 # Jumplist (newest first):
+-'  1  0  ~/Felix_Python/S_key.txt.pub
+|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
+-'  1  0  ~/Felix_Python/SSH_key.txt
+|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
+-'  1  0  ~/Felix_Python/SSH_key.txt
+|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
+-'  1  0  ~/.hushlogin
+|4,39,1,0,1613414446,"~/.hushlogin"
+-'  1  0  ~/.hushlogin
+|4,39,1,0,1613414446,"~/.hushlogin"
+-'  1  0  ~/.hushlogin
+|4,39,1,0,1613414446,"~/.hushlogin"
 -'  1  0  ~/.hushlogin
 |4,39,1,0,1613414446,"~/.hushlogin"
 
 # History of marks within files (newest to oldest):
+
+> ~/Felix_Python/S_key.txt.pub
+	*	1613416254	0
+	"	1	0
+
+> ~/Felix_Python/SSH_key.txt
+	*	1613415982	0
+	"	1	0
 
 > ~/.hushlogin
 	*	1613414445	0
