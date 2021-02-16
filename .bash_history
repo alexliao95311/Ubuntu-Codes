@@ -49,3 +49,13 @@ python3.7 main_code.py
 vi main_code.py 
 python3.7 main_code.py 
 vi main_code.py 
+cd WWII_Game/
+vi main_code.py 
+python3.7 main_code.py 
+git add .
+git commit -m "changes to WWII game"
+git push
+cd
+git add .
+git commit -m "added to maincode for WWII game"
+git push
