@@ -56,30 +56,36 @@
 |3,0,9,1,1,0,1613454846,"user = pickle.dump(user, op"
 
 # File marks:
-'0  13  10  ~/WWII_Game/main_code.py
-|4,48,13,10,1613455347,"~/WWII_Game/main_code.py"
-'1  5  14  ~/WWII_Game/main_code.py
-|4,49,5,14,1613455287,"~/WWII_Game/main_code.py"
-'2  5  14  ~/WWII_Game/main_code.py
-|4,50,5,14,1613455287,"~/WWII_Game/main_code.py"
-'3  12  11  ~/WWII_Game/main_code.py
-|4,51,12,11,1613454763,"~/WWII_Game/main_code.py"
-'4  11  11  ~/WWII_Game/main_code.py
-|4,52,11,11,1613454763,"~/WWII_Game/main_code.py"
-'5  12  11  ~/WWII_Game/main_code.py
-|4,53,12,11,1613454763,"~/WWII_Game/main_code.py"
-'6  11  11  ~/WWII_Game/main_code.py
-|4,54,11,11,1613454763,"~/WWII_Game/main_code.py"
+'0  8  29  ~/WWII_Game/main_code.py
+|4,48,8,29,1613455842,"~/WWII_Game/main_code.py"
+'1  13  10  ~/WWII_Game/main_code.py
+|4,49,13,10,1613455347,"~/WWII_Game/main_code.py"
+'2  13  10  ~/WWII_Game/main_code.py
+|4,50,13,10,1613455347,"~/WWII_Game/main_code.py"
+'3  5  14  ~/WWII_Game/main_code.py
+|4,51,5,14,1613455287,"~/WWII_Game/main_code.py"
+'4  5  14  ~/WWII_Game/main_code.py
+|4,52,5,14,1613455287,"~/WWII_Game/main_code.py"
+'5  5  14  ~/WWII_Game/main_code.py
+|4,53,5,14,1613455287,"~/WWII_Game/main_code.py"
+'6  5  14  ~/WWII_Game/main_code.py
+|4,54,5,14,1613455287,"~/WWII_Game/main_code.py"
 '7  12  11  ~/WWII_Game/main_code.py
-|4,55,12,11,1613454756,"~/WWII_Game/main_code.py"
+|4,55,12,11,1613454763,"~/WWII_Game/main_code.py"
 '8  11  11  ~/WWII_Game/main_code.py
-|4,56,11,11,1613454756,"~/WWII_Game/main_code.py"
+|4,56,11,11,1613454763,"~/WWII_Game/main_code.py"
 '9  12  11  ~/WWII_Game/main_code.py
-|4,57,12,11,1613454756,"~/WWII_Game/main_code.py"
+|4,57,12,11,1613454763,"~/WWII_Game/main_code.py"
 
 # Jumplist (newest first):
+-'  8  29  ~/WWII_Game/main_code.py
+|4,39,8,29,1613455842,"~/WWII_Game/main_code.py"
+-'  13  10  ~/WWII_Game/main_code.py
+|4,39,13,10,1613455712,"~/WWII_Game/main_code.py"
 -'  13  10  ~/WWII_Game/main_code.py
 |4,39,13,10,1613455347,"~/WWII_Game/main_code.py"
+-'  5  14  ~/WWII_Game/main_code.py
+|4,39,5,14,1613455326,"~/WWII_Game/main_code.py"
 -'  5  14  ~/WWII_Game/main_code.py
 |4,39,5,14,1613455326,"~/WWII_Game/main_code.py"
 -'  5  14  ~/WWII_Game/main_code.py
@@ -88,6 +94,10 @@
 |4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
 -'  12  11  ~/WWII_Game/main_code.py
 |4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
+-'  12  11  ~/WWII_Game/main_code.py
+|4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454763,"~/WWII_Game/main_code.py"
 -'  11  11  ~/WWII_Game/main_code.py
 |4,39,11,11,1613454763,"~/WWII_Game/main_code.py"
 -'  11  11  ~/WWII_Game/main_code.py
@@ -102,6 +112,10 @@
 |4,39,14,88,1613454728,"~/WWII_Game/main_code.py"
 -'  21  41  ~/WWII_Game/main_code.py
 |4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
+-'  14  88  ~/WWII_Game/main_code.py
+|4,39,14,88,1613454728,"~/WWII_Game/main_code.py"
+-'  21  41  ~/WWII_Game/main_code.py
+|4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
 -'  21  41  ~/WWII_Game/main_code.py
 |4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
 -'  20  41  ~/WWII_Game/main_code.py
@@ -110,6 +124,12 @@
 |4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
 -'  20  41  ~/WWII_Game/main_code.py
 |4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
+-'  20  41  ~/WWII_Game/main_code.py
+|4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
+-'  18  0  ~/WWII_Game/main_code.py
+|4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
+-'  17  0  ~/WWII_Game/main_code.py
+|4,39,17,0,1613454608,"~/WWII_Game/main_code.py"
 -'  18  0  ~/WWII_Game/main_code.py
 |4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
 -'  17  0  ~/WWII_Game/main_code.py
@@ -134,6 +154,12 @@
 |4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
 -'  15  0  ~/WWII_Game/main_code.py
 |4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
+-'  16  0  ~/WWII_Game/main_code.py
+|4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
+-'  15  0  ~/WWII_Game/main_code.py
+|4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
+-'  9  63  ~/WWII_Game/main_code.py
+|4,39,9,63,1613454343,"~/WWII_Game/main_code.py"
 -'  9  63  ~/WWII_Game/main_code.py
 |4,39,9,63,1613454343,"~/WWII_Game/main_code.py"
 -'  8  63  ~/WWII_Game/main_code.py
@@ -252,39 +278,13 @@
 |4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
 -'  1  0  ~/WWII_Game/playerlevel
 |4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  8  63  ~/WWII_Game/main_code.py
-|4,39,8,63,1613454324,"~/WWII_Game/main_code.py"
 
 # History of marks within files (newest to oldest):
 
 > ~/WWII_Game/main_code.py
-	*	1613455344	0
-	"	13	10
-	^	5	15
+	*	1613455840	0
+	"	8	29
+	^	8	30
 	.	5	14
 	+	9	63
 	+	10	0
