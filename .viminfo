@@ -12,9 +12,11 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1613416914,,"q"
+|2,0,1613455347,,"q"
 :w
-|2,0,1613416912,,"w"
+|2,0,1613455344,,"w"
+:set nu
+|2,0,1613455330,,"set nu"
 
 # Search String History (newest to oldest):
 
@@ -25,228 +27,282 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	    user = input('Enter new user: ')
+|3,1,1,1,1,0,1613454850,"    user = input('Enter new user: ')"
+"2	LINE	0
+	    password = input('Enter new pass: ')
+|3,0,2,1,1,0,1613454849,"    password = input('Enter new pass: ')"
+"3	LINE	0
+	    confirmpass = input('Please re-enter your pass: ')
+|3,0,3,1,1,0,1613454848,"    confirmpass = input('Please re-enter your pass: ')"
+"4	LINE	0
+	    if confirmpass != password:
+|3,0,4,1,1,0,1613454848,"    if confirmpass != password:"
+"5	LINE	0
+	        print('Sorry, your passwords don\'t match. Please try again')
+|3,0,5,1,1,0,1613454847,"        print('Sorry, your passwords don\\'t match. Please try again')"
+"6	LINE	0
+	    else:
+|3,0,6,1,1,0,1613454847,"    else:"
+"7	LINE	0
+	        break
+|3,0,7,1,1,0,1613454847,"        break"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1613454846,""
+"9	LINE	0
+	user = pickle.dump(user, op
+|3,0,9,1,1,0,1613454846,"user = pickle.dump(user, op"
 
 # File marks:
-'0  1  0  ~/WWII_Game/SSH_key1.txt.pub
-|4,48,1,0,1613416914,"~/WWII_Game/SSH_key1.txt.pub"
-'1  1  0  ~/WWII_Game/SSH_key1.txt
-|4,49,1,0,1613416876,"~/WWII_Game/SSH_key1.txt"
-'2  1  0  ~/WWII_Game/SSH_key1.txt
-|4,50,1,0,1613416792,"~/WWII_Game/SSH_key1.txt"
-'3  1  0  ~/WWII_Game/SSH_key.txt
-|4,51,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
-'4  1  0  ~/WWII_Game/main_code.py
-|4,52,1,0,1613416530,"~/WWII_Game/main_code.py"
-'5  1  0  ~/Felix_Python/S_key.txt.pub
-|4,53,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
-'6  1  0  ~/Felix_Python/SSH_key.txt
-|4,54,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
-'7  1  0  ~/.hushlogin
-|4,55,1,0,1613414446,"~/.hushlogin"
+'0  13  10  ~/WWII_Game/main_code.py
+|4,48,13,10,1613455347,"~/WWII_Game/main_code.py"
+'1  5  14  ~/WWII_Game/main_code.py
+|4,49,5,14,1613455287,"~/WWII_Game/main_code.py"
+'2  5  14  ~/WWII_Game/main_code.py
+|4,50,5,14,1613455287,"~/WWII_Game/main_code.py"
+'3  12  11  ~/WWII_Game/main_code.py
+|4,51,12,11,1613454763,"~/WWII_Game/main_code.py"
+'4  11  11  ~/WWII_Game/main_code.py
+|4,52,11,11,1613454763,"~/WWII_Game/main_code.py"
+'5  12  11  ~/WWII_Game/main_code.py
+|4,53,12,11,1613454763,"~/WWII_Game/main_code.py"
+'6  11  11  ~/WWII_Game/main_code.py
+|4,54,11,11,1613454763,"~/WWII_Game/main_code.py"
+'7  12  11  ~/WWII_Game/main_code.py
+|4,55,12,11,1613454756,"~/WWII_Game/main_code.py"
+'8  11  11  ~/WWII_Game/main_code.py
+|4,56,11,11,1613454756,"~/WWII_Game/main_code.py"
+'9  12  11  ~/WWII_Game/main_code.py
+|4,57,12,11,1613454756,"~/WWII_Game/main_code.py"
 
 # Jumplist (newest first):
--'  1  0  ~/WWII_Game/SSH_key1.txt.pub
-|4,39,1,0,1613416914,"~/WWII_Game/SSH_key1.txt.pub"
--'  1  0  ~/WWII_Game/SSH_key1.txt
-|4,39,1,0,1613416876,"~/WWII_Game/SSH_key1.txt"
--'  1  0  ~/WWII_Game/SSH_key1.txt
-|4,39,1,0,1613416876,"~/WWII_Game/SSH_key1.txt"
--'  1  0  ~/WWII_Game/SSH_key1.txt
-|4,39,1,0,1613416792,"~/WWII_Game/SSH_key1.txt"
--'  1  0  ~/WWII_Game/SSH_key1.txt
-|4,39,1,0,1613416792,"~/WWII_Game/SSH_key1.txt"
--'  1  0  ~/WWII_Game/SSH_key.txt
-|4,39,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
--'  1  0  ~/WWII_Game/SSH_key.txt
-|4,39,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
--'  1  0  ~/WWII_Game/SSH_key.txt
-|4,39,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
--'  1  0  ~/WWII_Game/SSH_key.txt
-|4,39,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
--'  1  0  ~/WWII_Game/SSH_key.txt
-|4,39,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
--'  1  0  ~/WWII_Game/SSH_key.txt
-|4,39,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
--'  1  0  ~/WWII_Game/SSH_key.txt
-|4,39,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
--'  1  0  ~/WWII_Game/SSH_key.txt
-|4,39,1,0,1613416546,"~/WWII_Game/SSH_key.txt"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/main_code.py
-|4,39,1,0,1613416530,"~/WWII_Game/main_code.py"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/S_key.txt.pub
-|4,39,1,0,1613416280,"~/Felix_Python/S_key.txt.pub"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
--'  1  0  ~/Felix_Python/SSH_key.txt
-|4,39,1,0,1613415983,"~/Felix_Python/SSH_key.txt"
+-'  13  10  ~/WWII_Game/main_code.py
+|4,39,13,10,1613455347,"~/WWII_Game/main_code.py"
+-'  5  14  ~/WWII_Game/main_code.py
+|4,39,5,14,1613455326,"~/WWII_Game/main_code.py"
+-'  5  14  ~/WWII_Game/main_code.py
+|4,39,5,14,1613455287,"~/WWII_Game/main_code.py"
+-'  12  11  ~/WWII_Game/main_code.py
+|4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
+-'  12  11  ~/WWII_Game/main_code.py
+|4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454763,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454763,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454756,"~/WWII_Game/main_code.py"
+-'  14  88  ~/WWII_Game/main_code.py
+|4,39,14,88,1613454728,"~/WWII_Game/main_code.py"
+-'  21  41  ~/WWII_Game/main_code.py
+|4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
+-'  14  88  ~/WWII_Game/main_code.py
+|4,39,14,88,1613454728,"~/WWII_Game/main_code.py"
+-'  21  41  ~/WWII_Game/main_code.py
+|4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
+-'  21  41  ~/WWII_Game/main_code.py
+|4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
+-'  20  41  ~/WWII_Game/main_code.py
+|4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
+-'  20  41  ~/WWII_Game/main_code.py
+|4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
+-'  20  41  ~/WWII_Game/main_code.py
+|4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
+-'  18  0  ~/WWII_Game/main_code.py
+|4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
+-'  17  0  ~/WWII_Game/main_code.py
+|4,39,17,0,1613454608,"~/WWII_Game/main_code.py"
+-'  18  0  ~/WWII_Game/main_code.py
+|4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
+-'  17  0  ~/WWII_Game/main_code.py
+|4,39,17,0,1613454608,"~/WWII_Game/main_code.py"
+-'  18  0  ~/WWII_Game/main_code.py
+|4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
+-'  17  0  ~/WWII_Game/main_code.py
+|4,39,17,0,1613454608,"~/WWII_Game/main_code.py"
+-'  16  0  ~/WWII_Game/main_code.py
+|4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
+-'  15  0  ~/WWII_Game/main_code.py
+|4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
+-'  16  0  ~/WWII_Game/main_code.py
+|4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
+-'  15  0  ~/WWII_Game/main_code.py
+|4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
+-'  16  0  ~/WWII_Game/main_code.py
+|4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
+-'  15  0  ~/WWII_Game/main_code.py
+|4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
+-'  9  63  ~/WWII_Game/main_code.py
+|4,39,9,63,1613454343,"~/WWII_Game/main_code.py"
+-'  8  63  ~/WWII_Game/main_code.py
+|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
+-'  9  63  ~/WWII_Game/main_code.py
+|4,39,9,63,1613454343,"~/WWII_Game/main_code.py"
+-'  8  63  ~/WWII_Game/main_code.py
+|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
+-'  8  63  ~/WWII_Game/main_code.py
+|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
+-'  8  63  ~/WWII_Game/main_code.py
+|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
+-'  8  63  ~/WWII_Game/main_code.py
+|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  1  0  ~/WWII_Game/playerlevel
+|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+-'  8  63  ~/WWII_Game/main_code.py
+|4,39,8,63,1613454324,"~/WWII_Game/main_code.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/WWII_Game/main_code.py
+	*	1613455344	0
+	"	13	10
+	^	5	15
+	.	5	14
+	+	9	63
+	+	10	0
+	+	14	98
+	+	14	50
+	+	14	3
+	+	14	19
+	+	13	10
+	+	14	68
+	+	14	12
+	+	12	11
+	+	14	47
+	+	14	0
+	+	5	14
+
+> ~/WWII_Game/playerlevel
+	*	1613454340	0
+	"	1	0
 
 > ~/WWII_Game/SSH_key1.txt.pub
 	*	1613416912	0
@@ -258,10 +314,6 @@
 
 > ~/WWII_Game/SSH_key.txt
 	*	1613416545	0
-	"	1	0
-
-> ~/WWII_Game/main_code.py
-	*	1613416529	0
 	"	1	0
 
 > ~/Felix_Python/S_key.txt.pub
