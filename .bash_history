@@ -59,3 +59,17 @@ cd
 git add .
 git commit -m "added to maincode for WWII game"
 git push
+git add .
+git commit -m "updated"
+git push
+git status
+exit
+cd WWII_Game/
+ls
+rm playerlevel
+ls
+rm playermission
+rm username
+ls
+vi main_code.py 
+python3.7 main_code.py 
