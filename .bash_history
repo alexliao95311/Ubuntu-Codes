@@ -31,3 +31,21 @@ git commit -m "changes in WWII directory"
 git push
 cd WWII_Game/
 vi main_code.py 
+git status
+git add .
+git commit -m "new commit"
+git push
+cd WWII_Game/
+ls
+python3.7 main_code.py 
+vi main_code.py 
+python3.7 main_code.py 
+vi main_code.py 
+python3.7 main_code.py 
+vi main_code.py 
+python3.7 main_code.py 
+vi main_code.py 
+python3.7 main_code.py 
+vi main_code.py 
+python3.7 main_code.py 
+vi main_code.py 

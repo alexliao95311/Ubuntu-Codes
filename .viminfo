@@ -12,11 +12,13 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1613455347,,"q"
+|2,0,1613496957,,"q"
 :w
-|2,0,1613455344,,"w"
+|2,0,1613496955,,"w"
+:"w
+|2,0,1613496741,,"\"w"
 :set nu
-|2,0,1613455330,,"set nu"
+|2,0,1613496686,,"set nu"
 
 # Search String History (newest to oldest):
 
@@ -28,58 +30,202 @@
 
 # Registers:
 ""1	LINE	0
-	    user = input('Enter new user: ')
-|3,1,1,1,1,0,1613454850,"    user = input('Enter new user: ')"
+	pdb.set_trace()
+|3,1,1,1,1,0,1613496739,"pdb.set_trace()"
 "2	LINE	0
-	    password = input('Enter new pass: ')
-|3,0,2,1,1,0,1613454849,"    password = input('Enter new pass: ')"
+	    user = input('Enter new user: ')
+|3,0,2,1,1,0,1613454850,"    user = input('Enter new user: ')"
 "3	LINE	0
-	    confirmpass = input('Please re-enter your pass: ')
-|3,0,3,1,1,0,1613454848,"    confirmpass = input('Please re-enter your pass: ')"
+	    password = input('Enter new pass: ')
+|3,0,3,1,1,0,1613454849,"    password = input('Enter new pass: ')"
 "4	LINE	0
-	    if confirmpass != password:
-|3,0,4,1,1,0,1613454848,"    if confirmpass != password:"
+	    confirmpass = input('Please re-enter your pass: ')
+|3,0,4,1,1,0,1613454848,"    confirmpass = input('Please re-enter your pass: ')"
 "5	LINE	0
-	        print('Sorry, your passwords don\'t match. Please try again')
-|3,0,5,1,1,0,1613454847,"        print('Sorry, your passwords don\\'t match. Please try again')"
+	    if confirmpass != password:
+|3,0,5,1,1,0,1613454848,"    if confirmpass != password:"
 "6	LINE	0
-	    else:
-|3,0,6,1,1,0,1613454847,"    else:"
+	        print('Sorry, your passwords don\'t match. Please try again')
+|3,0,6,1,1,0,1613454847,"        print('Sorry, your passwords don\\'t match. Please try again')"
 "7	LINE	0
-	        break
-|3,0,7,1,1,0,1613454847,"        break"
+	    else:
+|3,0,7,1,1,0,1613454847,"    else:"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1613454846,""
+	        break
+|3,0,8,1,1,0,1613454847,"        break"
 "9	LINE	0
-	user = pickle.dump(user, op
-|3,0,9,1,1,0,1613454846,"user = pickle.dump(user, op"
+	
+|3,0,9,1,1,0,1613454846,""
 
 # File marks:
-'0  8  29  ~/WWII_Game/main_code.py
-|4,48,8,29,1613455842,"~/WWII_Game/main_code.py"
-'1  13  10  ~/WWII_Game/main_code.py
-|4,49,13,10,1613455347,"~/WWII_Game/main_code.py"
-'2  13  10  ~/WWII_Game/main_code.py
-|4,50,13,10,1613455347,"~/WWII_Game/main_code.py"
-'3  5  14  ~/WWII_Game/main_code.py
-|4,51,5,14,1613455287,"~/WWII_Game/main_code.py"
-'4  5  14  ~/WWII_Game/main_code.py
-|4,52,5,14,1613455287,"~/WWII_Game/main_code.py"
-'5  5  14  ~/WWII_Game/main_code.py
-|4,53,5,14,1613455287,"~/WWII_Game/main_code.py"
-'6  5  14  ~/WWII_Game/main_code.py
-|4,54,5,14,1613455287,"~/WWII_Game/main_code.py"
-'7  12  11  ~/WWII_Game/main_code.py
-|4,55,12,11,1613454763,"~/WWII_Game/main_code.py"
-'8  11  11  ~/WWII_Game/main_code.py
-|4,56,11,11,1613454763,"~/WWII_Game/main_code.py"
-'9  12  11  ~/WWII_Game/main_code.py
-|4,57,12,11,1613454763,"~/WWII_Game/main_code.py"
+'0  25  20  ~/WWII_Game/main_code.py
+|4,48,25,20,1613496957,"~/WWII_Game/main_code.py"
+'1  5  0  ~/WWII_Game/[Command Line]
+|4,49,5,0,1613496934,"~/WWII_Game/[Command Line]"
+'2  29  14  ~/WWII_Game/main_code.py
+|4,50,29,14,1613496876,"~/WWII_Game/main_code.py"
+'3  27  14  ~/WWII_Game/main_code.py
+|4,51,27,14,1613496876,"~/WWII_Game/main_code.py"
+'4  29  14  ~/WWII_Game/main_code.py
+|4,52,29,14,1613496876,"~/WWII_Game/main_code.py"
+'5  27  14  ~/WWII_Game/main_code.py
+|4,53,27,14,1613496876,"~/WWII_Game/main_code.py"
+'6  13  12  ~/WWII_Game/main_code.py
+|4,54,13,12,1613496827,"~/WWII_Game/main_code.py"
+'7  13  12  ~/WWII_Game/main_code.py
+|4,55,13,12,1613496827,"~/WWII_Game/main_code.py"
+'8  13  12  ~/WWII_Game/main_code.py
+|4,56,13,12,1613496827,"~/WWII_Game/main_code.py"
+'9  13  12  ~/WWII_Game/main_code.py
+|4,57,13,12,1613496827,"~/WWII_Game/main_code.py"
 
 # Jumplist (newest first):
+-'  25  20  ~/WWII_Game/main_code.py
+|4,39,25,20,1613496957,"~/WWII_Game/main_code.py"
+-'  5  0  ~/WWII_Game/[Command Line]
+|4,39,5,0,1613496934,"~/WWII_Game/[Command Line]"
+-'  5  0  ~/WWII_Game/[Command Line]
+|4,39,5,0,1613496934,"~/WWII_Game/[Command Line]"
+-'  29  14  ~/WWII_Game/main_code.py
+|4,39,29,14,1613496892,"~/WWII_Game/main_code.py"
+-'  29  14  ~/WWII_Game/main_code.py
+|4,39,29,14,1613496892,"~/WWII_Game/main_code.py"
+-'  27  14  ~/WWII_Game/main_code.py
+|4,39,27,14,1613496876,"~/WWII_Game/main_code.py"
+-'  27  14  ~/WWII_Game/main_code.py
+|4,39,27,14,1613496876,"~/WWII_Game/main_code.py"
+-'  13  12  ~/WWII_Game/main_code.py
+|4,39,13,12,1613496847,"~/WWII_Game/main_code.py"
+-'  13  12  ~/WWII_Game/main_code.py
+|4,39,13,12,1613496847,"~/WWII_Game/main_code.py"
+-'  13  12  ~/WWII_Game/main_code.py
+|4,39,13,12,1613496847,"~/WWII_Game/main_code.py"
+-'  13  12  ~/WWII_Game/main_code.py
+|4,39,13,12,1613496827,"~/WWII_Game/main_code.py"
+-'  5  0  ~/WWII_Game/main_code.py
+|4,39,5,0,1613496764,"~/WWII_Game/main_code.py"
+-'  5  0  ~/WWII_Game/main_code.py
+|4,39,5,0,1613496764,"~/WWII_Game/main_code.py"
+-'  5  0  ~/WWII_Game/main_code.py
+|4,39,5,0,1613496764,"~/WWII_Game/main_code.py"
+-'  5  0  ~/WWII_Game/main_code.py
+|4,39,5,0,1613496764,"~/WWII_Game/main_code.py"
+-'  5  0  ~/WWII_Game/main_code.py
+|4,39,5,0,1613496745,"~/WWII_Game/main_code.py"
+-'  19  35  ~/WWII_Game/main_code.py
+|4,39,19,35,1613496733,"~/WWII_Game/main_code.py"
+-'  17  35  ~/WWII_Game/main_code.py
+|4,39,17,35,1613496733,"~/WWII_Game/main_code.py"
+-'  19  35  ~/WWII_Game/main_code.py
+|4,39,19,35,1613496733,"~/WWII_Game/main_code.py"
+-'  17  35  ~/WWII_Game/main_code.py
+|4,39,17,35,1613496733,"~/WWII_Game/main_code.py"
+-'  19  35  ~/WWII_Game/main_code.py
+|4,39,19,35,1613496733,"~/WWII_Game/main_code.py"
+-'  17  35  ~/WWII_Game/main_code.py
+|4,39,17,35,1613496733,"~/WWII_Game/main_code.py"
+-'  19  35  ~/WWII_Game/main_code.py
+|4,39,19,35,1613496733,"~/WWII_Game/main_code.py"
+-'  17  35  ~/WWII_Game/main_code.py
+|4,39,17,35,1613496733,"~/WWII_Game/main_code.py"
+-'  20  35  ~/WWII_Game/main_code.py
+|4,39,20,35,1613496696,"~/WWII_Game/main_code.py"
+-'  18  35  ~/WWII_Game/main_code.py
+|4,39,18,35,1613496696,"~/WWII_Game/main_code.py"
+-'  20  35  ~/WWII_Game/main_code.py
+|4,39,20,35,1613496696,"~/WWII_Game/main_code.py"
+-'  18  35  ~/WWII_Game/main_code.py
+|4,39,18,35,1613496696,"~/WWII_Game/main_code.py"
+-'  20  35  ~/WWII_Game/main_code.py
+|4,39,20,35,1613496696,"~/WWII_Game/main_code.py"
+-'  18  35  ~/WWII_Game/main_code.py
+|4,39,18,35,1613496696,"~/WWII_Game/main_code.py"
+-'  20  35  ~/WWII_Game/main_code.py
+|4,39,20,35,1613496696,"~/WWII_Game/main_code.py"
+-'  18  35  ~/WWII_Game/main_code.py
+|4,39,18,35,1613496696,"~/WWII_Game/main_code.py"
+-'  23  15  ~/WWII_Game/main_code.py
+|4,39,23,15,1613496682,"~/WWII_Game/main_code.py"
+-'  24  15  ~/WWII_Game/main_code.py
+|4,39,24,15,1613496682,"~/WWII_Game/main_code.py"
+-'  22  15  ~/WWII_Game/main_code.py
+|4,39,22,15,1613496682,"~/WWII_Game/main_code.py"
+-'  25  15  ~/WWII_Game/main_code.py
+|4,39,25,15,1613496682,"~/WWII_Game/main_code.py"
+-'  27  15  ~/WWII_Game/main_code.py
+|4,39,27,15,1613496682,"~/WWII_Game/main_code.py"
+-'  23  15  ~/WWII_Game/main_code.py
+|4,39,23,15,1613496682,"~/WWII_Game/main_code.py"
+-'  24  15  ~/WWII_Game/main_code.py
+|4,39,24,15,1613496682,"~/WWII_Game/main_code.py"
+-'  24  15  ~/WWII_Game/main_code.py
+|4,39,24,15,1613496682,"~/WWII_Game/main_code.py"
+-'  25  15  ~/WWII_Game/main_code.py
+|4,39,25,15,1613496682,"~/WWII_Game/main_code.py"
+-'  22  15  ~/WWII_Game/main_code.py
+|4,39,22,15,1613496682,"~/WWII_Game/main_code.py"
+-'  23  15  ~/WWII_Game/main_code.py
+|4,39,23,15,1613496682,"~/WWII_Game/main_code.py"
+-'  24  15  ~/WWII_Game/main_code.py
+|4,39,24,15,1613496682,"~/WWII_Game/main_code.py"
+-'  25  15  ~/WWII_Game/main_code.py
+|4,39,25,15,1613496682,"~/WWII_Game/main_code.py"
+-'  22  15  ~/WWII_Game/main_code.py
+|4,39,22,15,1613496682,"~/WWII_Game/main_code.py"
+-'  23  15  ~/WWII_Game/main_code.py
+|4,39,23,15,1613496682,"~/WWII_Game/main_code.py"
+-'  23  15  ~/WWII_Game/main_code.py
+|4,39,23,15,1613496674,"~/WWII_Game/main_code.py"
+-'  7  29  ~/WWII_Game/main_code.py
+|4,39,7,29,1613496364,"~/WWII_Game/main_code.py"
+-'  8  29  ~/WWII_Game/main_code.py
+|4,39,8,29,1613496364,"~/WWII_Game/main_code.py"
+-'  7  29  ~/WWII_Game/main_code.py
+|4,39,7,29,1613496364,"~/WWII_Game/main_code.py"
+-'  8  29  ~/WWII_Game/main_code.py
+|4,39,8,29,1613496364,"~/WWII_Game/main_code.py"
+-'  7  29  ~/WWII_Game/main_code.py
+|4,39,7,29,1613496364,"~/WWII_Game/main_code.py"
+-'  8  29  ~/WWII_Game/main_code.py
+|4,39,8,29,1613496364,"~/WWII_Game/main_code.py"
+-'  7  29  ~/WWII_Game/main_code.py
+|4,39,7,29,1613496364,"~/WWII_Game/main_code.py"
+-'  8  29  ~/WWII_Game/main_code.py
+|4,39,8,29,1613496364,"~/WWII_Game/main_code.py"
+-'  7  29  ~/WWII_Game/main_code.py
+|4,39,7,29,1613496364,"~/WWII_Game/main_code.py"
+-'  8  29  ~/WWII_Game/main_code.py
+|4,39,8,29,1613496364,"~/WWII_Game/main_code.py"
+-'  8  29  ~/WWII_Game/main_code.py
+|4,39,8,29,1613496364,"~/WWII_Game/main_code.py"
 -'  8  29  ~/WWII_Game/main_code.py
 |4,39,8,29,1613455842,"~/WWII_Game/main_code.py"
+-'  14  10  ~/WWII_Game/main_code.py
+|4,39,14,10,1613455712,"~/WWII_Game/main_code.py"
+-'  15  10  ~/WWII_Game/main_code.py
+|4,39,15,10,1613455712,"~/WWII_Game/main_code.py"
+-'  12  10  ~/WWII_Game/main_code.py
+|4,39,12,10,1613455712,"~/WWII_Game/main_code.py"
+-'  14  10  ~/WWII_Game/main_code.py
+|4,39,14,10,1613455712,"~/WWII_Game/main_code.py"
+-'  15  10  ~/WWII_Game/main_code.py
+|4,39,15,10,1613455712,"~/WWII_Game/main_code.py"
+-'  12  10  ~/WWII_Game/main_code.py
+|4,39,12,10,1613455712,"~/WWII_Game/main_code.py"
+-'  14  10  ~/WWII_Game/main_code.py
+|4,39,14,10,1613455712,"~/WWII_Game/main_code.py"
+-'  15  10  ~/WWII_Game/main_code.py
+|4,39,15,10,1613455712,"~/WWII_Game/main_code.py"
+-'  12  10  ~/WWII_Game/main_code.py
+|4,39,12,10,1613455712,"~/WWII_Game/main_code.py"
+-'  14  10  ~/WWII_Game/main_code.py
+|4,39,14,10,1613455712,"~/WWII_Game/main_code.py"
+-'  15  10  ~/WWII_Game/main_code.py
+|4,39,15,10,1613455712,"~/WWII_Game/main_code.py"
+-'  12  10  ~/WWII_Game/main_code.py
+|4,39,12,10,1613455712,"~/WWII_Game/main_code.py"
+-'  13  10  ~/WWII_Game/main_code.py
+|4,39,13,10,1613455712,"~/WWII_Game/main_code.py"
 -'  13  10  ~/WWII_Game/main_code.py
 |4,39,13,10,1613455712,"~/WWII_Game/main_code.py"
 -'  13  10  ~/WWII_Game/main_code.py
@@ -89,13 +235,41 @@
 -'  5  14  ~/WWII_Game/main_code.py
 |4,39,5,14,1613455326,"~/WWII_Game/main_code.py"
 -'  5  14  ~/WWII_Game/main_code.py
+|4,39,5,14,1613455326,"~/WWII_Game/main_code.py"
+-'  5  14  ~/WWII_Game/main_code.py
+|4,39,5,14,1613455326,"~/WWII_Game/main_code.py"
+-'  5  14  ~/WWII_Game/main_code.py
 |4,39,5,14,1613455287,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454808,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454808,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454808,"~/WWII_Game/main_code.py"
+-'  12  11  ~/WWII_Game/main_code.py
+|4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454808,"~/WWII_Game/main_code.py"
 -'  12  11  ~/WWII_Game/main_code.py
 |4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
 -'  12  11  ~/WWII_Game/main_code.py
 |4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
 -'  12  11  ~/WWII_Game/main_code.py
 |4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
+-'  12  11  ~/WWII_Game/main_code.py
+|4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
+-'  12  11  ~/WWII_Game/main_code.py
+|4,39,12,11,1613454808,"~/WWII_Game/main_code.py"
+-'  10  11  ~/WWII_Game/main_code.py
+|4,39,10,11,1613454763,"~/WWII_Game/main_code.py"
+-'  10  11  ~/WWII_Game/main_code.py
+|4,39,10,11,1613454763,"~/WWII_Game/main_code.py"
+-'  10  11  ~/WWII_Game/main_code.py
+|4,39,10,11,1613454763,"~/WWII_Game/main_code.py"
+-'  10  11  ~/WWII_Game/main_code.py
+|4,39,10,11,1613454763,"~/WWII_Game/main_code.py"
+-'  10  11  ~/WWII_Game/main_code.py
+|4,39,10,11,1613454763,"~/WWII_Game/main_code.py"
 -'  11  11  ~/WWII_Game/main_code.py
 |4,39,11,11,1613454763,"~/WWII_Game/main_code.py"
 -'  11  11  ~/WWII_Game/main_code.py
@@ -103,202 +277,53 @@
 -'  11  11  ~/WWII_Game/main_code.py
 |4,39,11,11,1613454763,"~/WWII_Game/main_code.py"
 -'  11  11  ~/WWII_Game/main_code.py
-|4,39,11,11,1613454756,"~/WWII_Game/main_code.py"
--'  14  88  ~/WWII_Game/main_code.py
-|4,39,14,88,1613454728,"~/WWII_Game/main_code.py"
--'  21  41  ~/WWII_Game/main_code.py
-|4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
--'  14  88  ~/WWII_Game/main_code.py
-|4,39,14,88,1613454728,"~/WWII_Game/main_code.py"
--'  21  41  ~/WWII_Game/main_code.py
-|4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
--'  14  88  ~/WWII_Game/main_code.py
-|4,39,14,88,1613454728,"~/WWII_Game/main_code.py"
--'  21  41  ~/WWII_Game/main_code.py
-|4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
--'  21  41  ~/WWII_Game/main_code.py
-|4,39,21,41,1613454728,"~/WWII_Game/main_code.py"
--'  20  41  ~/WWII_Game/main_code.py
-|4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
--'  20  41  ~/WWII_Game/main_code.py
-|4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
--'  20  41  ~/WWII_Game/main_code.py
-|4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
--'  20  41  ~/WWII_Game/main_code.py
-|4,39,20,41,1613454708,"~/WWII_Game/main_code.py"
--'  18  0  ~/WWII_Game/main_code.py
-|4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
--'  17  0  ~/WWII_Game/main_code.py
-|4,39,17,0,1613454608,"~/WWII_Game/main_code.py"
--'  18  0  ~/WWII_Game/main_code.py
-|4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
--'  17  0  ~/WWII_Game/main_code.py
-|4,39,17,0,1613454608,"~/WWII_Game/main_code.py"
--'  18  0  ~/WWII_Game/main_code.py
-|4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
--'  17  0  ~/WWII_Game/main_code.py
-|4,39,17,0,1613454608,"~/WWII_Game/main_code.py"
--'  18  0  ~/WWII_Game/main_code.py
-|4,39,18,0,1613454608,"~/WWII_Game/main_code.py"
--'  17  0  ~/WWII_Game/main_code.py
-|4,39,17,0,1613454608,"~/WWII_Game/main_code.py"
--'  16  0  ~/WWII_Game/main_code.py
-|4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
--'  15  0  ~/WWII_Game/main_code.py
-|4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
--'  16  0  ~/WWII_Game/main_code.py
-|4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
--'  15  0  ~/WWII_Game/main_code.py
-|4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
--'  16  0  ~/WWII_Game/main_code.py
-|4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
--'  15  0  ~/WWII_Game/main_code.py
-|4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
--'  16  0  ~/WWII_Game/main_code.py
-|4,39,16,0,1613454605,"~/WWII_Game/main_code.py"
--'  15  0  ~/WWII_Game/main_code.py
-|4,39,15,0,1613454605,"~/WWII_Game/main_code.py"
--'  9  63  ~/WWII_Game/main_code.py
-|4,39,9,63,1613454343,"~/WWII_Game/main_code.py"
--'  9  63  ~/WWII_Game/main_code.py
-|4,39,9,63,1613454343,"~/WWII_Game/main_code.py"
--'  8  63  ~/WWII_Game/main_code.py
-|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
--'  9  63  ~/WWII_Game/main_code.py
-|4,39,9,63,1613454343,"~/WWII_Game/main_code.py"
--'  8  63  ~/WWII_Game/main_code.py
-|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
--'  8  63  ~/WWII_Game/main_code.py
-|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
--'  8  63  ~/WWII_Game/main_code.py
-|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
--'  8  63  ~/WWII_Game/main_code.py
-|4,39,8,63,1613454343,"~/WWII_Game/main_code.py"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
--'  1  0  ~/WWII_Game/playerlevel
-|4,39,1,0,1613454340,"~/WWII_Game/playerlevel"
+|4,39,11,11,1613454763,"~/WWII_Game/main_code.py"
+-'  11  11  ~/WWII_Game/main_code.py
+|4,39,11,11,1613454763,"~/WWII_Game/main_code.py"
 
 # History of marks within files (newest to oldest):
 
 > ~/WWII_Game/main_code.py
-	*	1613455840	0
-	"	8	29
-	^	8	30
-	.	5	14
-	+	9	63
-	+	10	0
-	+	14	98
-	+	14	50
-	+	14	3
-	+	14	19
-	+	13	10
-	+	14	68
-	+	14	12
+	*	1613496955	0
+	"	25	20
+	^	25	21
+	.	25	20
+	+	8	63
+	+	9	0
+	+	27	98
+	+	27	50
+	+	27	3
+	+	27	19
+	+	25	26
+	+	27	68
+	+	27	12
 	+	12	11
-	+	14	47
-	+	14	0
+	+	27	47
+	+	27	0
 	+	5	14
+	+	7	53
+	+	8	59
+	+	12	12
+	+	10	95
+	+	18	43
+	+	25	16
+	+	12	12
+	+	15	3
+	+	16	3
+	+	17	3
+	+	18	3
+	+	14	10
+	+	20	47
+	+	25	15
+	+	27	0
+	+	19	35
+	+	5	0
+	+	18	51
+	+	11	12
+	+	13	12
+	+	29	14
+	+	21	20
+	+	25	20
 
 > ~/WWII_Game/playerlevel
 	*	1613454340	0
